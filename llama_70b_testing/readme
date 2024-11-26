@@ -1,0 +1,22 @@
+2024/11/26: Noam wants to use the 70B for the perplexity score. Should include this document, the conda environment for llama_nlp, etc.
+
+
+> conda activate llama_nlp
+> llama download --source meta --model-id Llama3.1-70B-Instruct
+You'll need to put in a download token, which you obtain my requesting academic access to the model.
+This should put a copy of the model weights in your ~/.llama/checkpoints folder. I'm copying the data to kuma, where I will then convert the model weights.
+scp -r ~/.llama/checkpoints/Llama3.1-70B-Instruct/ korchins@kuma.hpc.epfl.ch:/scratch/korchins/
+
+I wrote the convert-70B.sh and "queue_convert-70B.sh" files to /home/korchins/projects/llm_unmasking@kuma
+- Actually in the end I didn't use "queue_convert-70B.sh" 
+- I instead used:
+srun -p l40s --qos=debug  --mem=200G --pty bash  #for kuma
+
+then ran
+sh convert-70B.sh 
+
+We should write some code that loads the pipeline, if possible, to test it. 
+
+open, wrote: test-70b.sh (call by sbatch test-70b.sh), which runs 'open-70b.py'. 
+https://github.com/tloen/alpaca-lora/issues/174
+    - 8bit quantization on the h100 causes problems with my version of pytorch.

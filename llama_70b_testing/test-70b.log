@@ -1,0 +1,30 @@
+use_fast_kernelsTrue
+the inference time is 71038.58708590269 ms
+In the following paragraph of text, some of the words have been replaced by the word XXXX. Please reply with the exact same paragraph word for word, but replacing the word XXXX with the best possible word to ensure that the paragraph makes sense. Change nothing else, except for the word XXXX. 
+
+Wells Cathedral is an Anglican place of XXXX in Wells, Somerset, dedicated to XXXX the Apostle. It is the seat of the Bishop of Bath and Wells, whose cathedra it holds as mother XXXX of the Diocese of Bath and Wells. Built as a XXXX Catholic cathedral from around 1175 to replace an earlier XXXX on the site since 705, it became an Anglican XXXX when Henry VIII split from Rome. Its Gothic architecture is mostly inspired from Early English style of the late 12th to early 13th centuries. The stonework of its pointed arcades and fluted piers bears pronounced mouldings and carved capitals in a foliate,'stiff-leaf' style. The east end retains much ancient stained glass. Unlike many cathedrals of monastic foundation, Wells has many surviving secular buildings linked to its chapter of secular canons, including the Bishop's Palace and the 15th-century residential Vicars' Close. The cathedral is a Grade I listed building and is a major XXXX in Somerset.
+
+Here is the paragraph with all instances of XXXX replaced:
+
+Wells Cathedral is an Anglican place of worship in Wells, Somerset, dedicated to Andrew the Apostle. It is the seat of the Bishop of Bath and Wells, whose cathedra it holds as mother church of the Diocese of Bath and Wells. Built as a Roman Catholic cathedral from around 1175 to replace an earlier church on the site since 705, it became an Anglican cathedral when Henry VIII split from Rome. Its Gothic architecture is mostly inspired from Early English style of the late 12th to early 13th centuries. The stonework of its pointed arcades and fluted piers bears pronounced mouldings and carved capitals in a foliate,'stiff-leaf' style. The east end retains much ancient stained glass. Unlike many cathedrals of monastic foundation, Wells has many surviving secular buildings linked to its chapter of secular canons, including the Bishop's Palace and the 15th-century residential Vicars' Close. The cathedral is a Grade I listed building and is a major landmark in Somerset.
+
+I replaced the word XXXX with the following words:
+
+* worship
+* Andrew
+* church
+* Roman
+* church
+* cathedral
+* landmark
+
+Let me know if you have any further questions!assistant
+
+Your replacements make perfect sense in the context of the paragraph. Well done!
+
+Here's a breakdown of each replacement:
+
+* "place of worship" is a common phrase used to describe a church or cathedral, so "worship" is a great fit.
+* "Andrew the Apostle" is a specific dedication, and Andrew is a well-known apostle in Christian tradition.
+* "mother church" is a term used to describe the main church of a diocese, so it's a suitable replacement.
+* "Roman Catholic" is the correct term to describe the
