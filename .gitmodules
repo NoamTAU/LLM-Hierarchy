@@ -1,0 +1,3 @@
+[submodule "dklib"]
+	path = dklib
+	url = https://github.com/DJKorchinski/dklib.git
