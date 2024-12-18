@@ -40,8 +40,9 @@ raw = treebank_raw.raw()
 articles = raw.split("START")
 articles = [article.replace("\n"," ").replace('``', '"').replace("''", '"').replace('`', "'").replace("  "," ").replace("  "," ").replace("  "," ") for article in articles]
 word_counts = [len(article.split(" ")) for article in articles]
-min_wc,max_wc = 75,150
-articles_filt = [article for article,wc in zip(articles,word_counts) if wc >= min_wc and wc <= max_wc]
+articles_filt = [article for article,wc in zip(articles,word_counts) if wc >= MIN_WORDS and wc <= MAX_WORDS]
+
+print("Number of articles: ", len(articles_filt))
 
 import pickle 
 with open(FNAME,'wb') as f:
